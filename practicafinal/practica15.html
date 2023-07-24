@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+	<title>Pruebas JavaScript - Cuadro de diálogo de confirmación</title>
+	<script> 
+          //Cuadro de diálogo de confirmación en Google
+          function confirmarAccesoURL()
+          {
+	    return confirm("¿Está seguro que desea acceder a google");
+          }
+	</script>
+  </head>
+  <body>
+    <p>Ejemplo de acceso a sitio web, previa confirmación:</p>
+    <a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&oq=go&aqs=chrome.1.69i57j46i67i131i199i433i465i650j0i67i433i650j0i67i131i433i650j0i67i433i650l2j0i67i131i433i650j0i67i433i650l2.420424340j0j15&sourceid=chrome&ie=UTF-8" onclick="return confirmarAccesoURL()"> Acceder a Google</a>    
+  </body>
+</html>
